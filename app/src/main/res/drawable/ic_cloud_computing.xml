@@ -1,0 +1,15 @@
+<vector android:autoMirrored="true" android:height="110dp"
+    android:viewportHeight="512" android:viewportWidth="512"
+    android:width="110dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/main" android:pathData="M256,256m-256,0a256,256 0,1 1,512 0a256,256 0,1 1,-512 0"/>
+    <path android:fillColor="@color/main" android:pathData="m512,256c0,-0.052 0,-0.104 0,-0.155l-84.074,-84.074 -15.885,5.57 -65.708,-72.573 -257.602,186.347 116.436,115.821 -24.425,33.238 71.802,71.802c1.15,0.015 2.302,0.023 3.456,0.023 141.385,0.001 256,-114.614 256,-255.999z"/>
+    <path android:fillColor="#fff" android:pathData="m367.421,312.574c46.062,0 83.402,-37.341 83.402,-83.403s-37.341,-83.403 -83.402,-83.403c-0.004,0 -0.008,0 -0.012,0 -13.643,-48.697 -58.355,-84.41 -111.409,-84.41s-97.766,35.713 -111.409,84.41c-0.004,0 -0.008,0 -0.012,0 -46.062,0 -83.403,37.341 -83.403,83.403s37.341,83.403 83.403,83.403z"/>
+    <path android:fillColor="#e9edf5" android:pathData="m367.421,145.769c-0.004,0 -0.008,0 -0.012,0 -13.643,-48.698 -58.355,-84.411 -111.409,-84.411 -0.119,0 -0.237,0.007 -0.356,0.008v251.208h111.777c46.062,0 83.403,-37.341 83.403,-83.403 -0.001,-46.062 -37.342,-83.402 -83.403,-83.402z"/>
+    <path android:fillColor="#636978" android:pathData="m180.742,202.673h150.516v237.502h-150.516z"/>
+    <path android:fillColor="#414952" android:pathData="m255.644,202.673h75.614v237.502h-75.614z"/>
+    <path android:fillColor="#96e8ff" android:pathData="m278.484,222.804 l-5.656,11.794h-33.655l-5.657,-11.794h-33.242v197.239h111.452v-197.239z"/>
+    <path android:fillColor="#19cffc" android:pathData="m311.726,222.804h-33.242l-5.656,11.794h-17.184v185.445h56.082z"/>
+    <path android:fillColor="#ff9500" android:pathData="m378.683,368.941h-129.322v-30h99.322v-70.673h30z"/>
+    <path android:fillColor="#ff9500" android:pathData="m268.333,405.915 l-51.975,-51.974 51.975,-51.974 21.213,21.213 -30.762,30.761 30.762,30.762z"/>
+    <path android:fillColor="#fe6a16" android:pathData="m378.683,268.268h-30v70.673h-74.899l15.762,-15.761 -21.213,-21.213 -12.689,12.689v78.571l12.689,12.689 21.213,-21.213 -15.762,-15.762h104.899z"/>
+</vector>

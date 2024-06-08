@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">Lite Downloader</string>
+    <string name="close_drawer">Close</string>
+    <string name="open_drawer">Open</string>
+    <string name="activity_main_toolbar">Home page</string>
+    <string name="nav_header_title">Lite Downloader</string>
+    <string name="menu_title1">Go to</string>
+    <string name="go_1">Completed downloads</string>
+    <string name="go_2">Cancelled downloads</string>
+    <string name="go_3">Schedule downloads</string>
+    <string name="go_4">Paused downloads</string>
+    <string name="settings_title">Settings</string>
+    <string name="menu_title_2">Actions</string>
+    <string name="remove_ads">Remove ads</string>
+    <string name="share">Share</string>
+    <string name="feedback">Contact us</string>
+    <string name="rate_app">Rate app</string>
+    <string name="pending_title">Paused download</string>
+    <string name="cancelled_title">Cancelled downloads</string>
+    <string name="completed_title">Completed downloads</string>
+    <string name="download">download the app here</string>
+    <string name="enter_url_header">add download link</string>
+    <string name="url_hint_header">download url</string>
+    <string name="start">Start download</string>
+    <string name="select_time">Set Time</string>
+    <string name="select_date">Set Date</string>
+    <string name="download_hint">Download will start at:</string>
+    <string name="error1">Please enter the date/time first!</string>
+    <string name="error2">Please enter a valid download link!</string>
+    <string name="give_permission">Please give permission first so you can start downloading</string>
+    <string name="download_speed_bytes">%1$d byte/sec</string>
+    <string name="download_speed_kb">%1$s KB/sec</string>
+    <string name="download_speed_mb">%1$s MB/sec</string>
+    <string name="download_bytes">%1$d byte</string>
+    <string name="download_kb">%1$s KB</string>
+    <string name="download_mb">%1$s MB</string>
+    <string name="process">%s  / %s </string>
+    <string name="done">Downloaded successfully</string>
+    <string name="downloadedTime">%d min and %d sec </string>
+    <string name="waiting">Waiting Network</string>
+    <string name="error">Something went wrong</string>
+    <string name="paused">Paused</string>
+    <string name="pause">Pause</string>
+    <string name="cancelDownload">Cancel</string>
+    <string name="copy">Copy Url</string>
+    <string name="info">About file</string>
+    <string name="openFile">Open File</string>
+    <string name="delete_file">Delete File</string>
+    <string name="delete">Delete</string>
+    <string name="reDownload">Re download</string>
+    <string name="resume">Resume</string>
+    <string name="download_cancelled">Download has been cancelled</string>
+    <string name="cancel_done">The download process has been canceled successfully</string>
+    <string name="reDownload_done">Download started</string>
+    <string name="sure">Are you sure ?</string>
+    <string name="delete_msg">The file will be permanently deleted from your device</string>
+    <string name="yes">yes</string>
+    <string name="no_cancel">Cancel</string>
+    <string name="file_deleted">The file has been deleted successfully</string>
+    <string name="error_download">The file has already been downloaded!</string>
+    <string name="schedule_done">Download added successfully</string>
+    <string name="download_started">Download started</string>
+    <string name="downloadNow">Start download now</string>
+    <string name="edit_download">Edit</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="my_notification_channel_id" translatable="false">download_notification</string>
+    <string name="download_service">Download Service</string>
+    <string name="active_downloads">Active downloads : %d</string>
+    <string name="stop">Stop</string>
+    <string name="play_all">Play All</string>
+    <string name="pauseAll">Pause All</string>
+    <string name="deleteAll">Delete All </string>
+    <string name="filename">File Name</string>
+    <string name="error3">Please enter a valid file name</string>
+    <string name="all_download_paused">All download are Paused</string>
+    <string name="actions">Actions</string>
+    <string name="interface_name">App Interface</string>
+    <string name="apperance_settings">App Appearance</string>
+    <string name="default_language" translatable="false">الإفتراضي</string>
+    <string name="auto">Auto (device Language)</string>
+    <string name="UK" translatable="false">English(UK)</string>
+    <string name="EN" translatable="false">en</string>
+    <string name="AR" translatable="false">ar</string>
+    <string name="arabic" translatable="false">Arabic/العربية</string>
+    <string name="english" translatable="false">English</string>
+    <string name="apperance_summary">Edit App Appearance Choose your favorite theme</string>
+    <string name="about_settings">About app</string>
+    <string name="law_settings">privacy protection act</string>
+    <string name="privacy_settings">Privacy policy</string>
+    <string name="terms_settings">Terms of use</string>
+    <string name="rate_settings">Rate App</string>
+    <string name="share_settings">Share App</string>
+    <string name="mail_settings">Contact us</string>
+    <string name="mail_summary">Send your opinions about the app</string>
+    <string name="website_settings">Go To Website</string>
+    <string name="privacyPolicy">Privacy Policy</string>
+    <string name="termsOfUse">Terms of Use</string>
+    <string name="wifi_key" translatable="false">wifi_only</string>
+    <string name="wifi_title" >Wifi Only</string>
+    <string name="wifi_summary">Download when there is wifi only</string>
+    <string name="vibrate_key" translatable="false">vibrate</string>
+    <string name="vibrate_title">Vibration</string>
+    <string name="vibrate_summary">Vibrate when download is completed</string>
+    <string name="battery_key" translatable="false">low_battery</string>
+    <string name="battery_title">Stop when battery is low</string>
+    <string name="battery_summary">The download will automatically stop when the battery is low</string>
+    <string name="auto_key" translatable="false">auto_resume</string>
+    <string name="auto_title">Resume automatically</string>
+    <string name="auto_summary">Downloads that were interrupted by no connection will be resumed automatically if there is a network</string>
+    <string name="concurrent_download_key" translatable="false">concurrent_download</string>
+    <string name="concurrent_download_title">The number of downloads that can be downloaded at the same time</string>
+    <string name="concurrent_download_summary">number of concurrent downloads</string>
+    <string name="download_speed">Download Speed</string>
+    <string name="download_speed_summary">Max</string>
+    <string name="download_speed_key" translatable="false">download_speed</string>
+    <string name="download_order_key" translatable="false">downloads_order</string>
+    <string name="download_order_title">Download Files order</string>
+    <string name="download_order_summary">by size (descending)</string>
+    <string name="apperance_title">Choose your favorite app theme</string>
+    <string name="AppearanceKey" translatable="false">Appearance_Key</string>
+    <string name="language_title">App Language</string>
+    <string name="language_key" translatable="false">language_key</string>
+    <string name="privacyPolicyKey"  translatable="false">privacy_key</string>
+    <string name="termsOfUseKey" translatable="false">terms_key</string>
+    <string name="remove_Ad_title">Remove Ads</string>
+    <string name="remove_Ad_summary">Permanently delete ads from the app</string>
+    <string name="remove_AdKey" translatable="false">remove_Ad_key</string>
+    <string name="rate_key" translatable="false">rateKey</string>
+    <string name="sharekey" translatable="false">share_key</string>
+    <string name="websiteKey" translatable="false">website_key</string>
+    <string name="low">Low</string>
+    <string name="medium">medium</string>
+    <string name="max">Max</string>
+    <string name="wait">Pending</string>
+    <string name="name_sort">Name</string>
+    <string name="date_sort">Date</string>
+    <string name="size_sort">Size</string>
+    <string name="order_asc">By time (oldest to newest)</string>
+    <string name="order_desc">Alphabetical (ascending)</string>
+    <string name="alpha_desc">Alphabetical (Descending)</string>
+    <string name="alpha_asc">by size (ascending)</string>
+    <string name="size_desc">by size (descending)</string>
+    <string name="time_desc">By time (newest to oldest)</string>
+    <string name="url_copied">Link copied successfully</string>
+    <string name="error_open_app">An error occurred while opening the file, please open it from the phone`s files</string>
+    <string name="share_with">Share With</string>
+    <string name="download_here">Download App From Here</string>
+    <string name="subscribe_now">Subscribe Now !</string>
+    <string name="to_remove_ads_from_the_app">Remove Ads From Your App Forever</string>
+    <string name="monthly_subscribe">Monthly subscription</string>
+    <string name="yearly_subscribe">Annual subscription</string>
+    <string name="congra">Congratulations</string>
+    <string name="adsRemoved">Successfully subscribed</string>
+    <string name="RemoveAdKey" translatable="false">remove_ads_subscribe</string>
+    <string name="already_owned">Ads are already Removed</string>
+    <string name="remove_ads_Monthly_product_id">remove_ads_Monthly</string>
+    <string name="remove_ads_yearly_product_id">remove_ads_yearly</string>
+    <string name="noActive">You have no Active downloads now</string>
+    <string name="THEME_KEY" translatable="false">theme_key</string>
+    <string name="ok">OK</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="default_btn">Default</string>
+    <string name="colorPicker">Choose your Theme</string>
+    <string name="CURRENT_COLOR_KEY" translatable="false">current_color_key</string>
+</resources>

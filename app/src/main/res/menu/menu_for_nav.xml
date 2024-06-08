@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/menu_title1">
+
+        <menu>
+            <item android:title="@string/go_1"
+                android:id="@+id/completed_downloads"
+                android:icon="@drawable/ic__100"/>
+
+            <item android:title="@string/go_3"
+                android:id="@+id/schedule_downloads"
+                android:icon="@drawable/ic_waiting"/>
+
+
+            <item android:title="@string/go_2"
+                android:id="@+id/cancelled_downloads"
+                android:icon="@drawable/ic_x_button"/>
+
+            <item android:title="@string/settings_title"
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_settings"/>
+
+
+
+        </menu>
+
+    </item>
+
+    <item android:title="@string/menu_title_2">
+        <menu>
+           
+            <item
+                android:id="@+id/Share"
+                android:icon="@drawable/ic_baseline_share_24"
+                android:title="@string/share" />
+
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_baseline_mail_24"
+                android:title="@string/feedback" />
+
+            <item
+                android:id="@+id/Rate"
+                android:icon="@drawable/ic_baseline_star_24"
+                android:title="@string/rate_app" />
+
+            <item
+                android:id="@+id/privacyPolicyKey"
+                android:icon="@drawable/ic_locked"
+                android:title="@string/privacy_settings" />
+            <item
+                android:id="@+id/termsOfUseKey"
+                android:icon="@drawable/ic_privacy_policy"
+                android:title="@string/terms_settings"
+                />
+
+            <item
+                android:id="@+id/websiteKey"
+                android:icon="@drawable/ic_web"
+                android:title="@string/website_settings"
+                />
+
+
+        </menu>
+    </item>
+
+</menu>

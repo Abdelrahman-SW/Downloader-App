@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/add_playlist_view"
+    android:id="@+id/add_playlist_root">
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        android:foreground="@drawable/cardview"
+        >
+        <LinearLayout
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|start"
+                android:maxLines="1"
+                android:text="@string/enter_url_header"
+                android:drawablePadding="8dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:drawableStartCompat="@drawable/ic_info" />
+
+
+            <LinearLayout
+                android:id="@+id/root1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/downloadEditTxt"
+                    android:layout_width="0dp"
+                    android:layout_height="65dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custombutton"
+                    android:gravity="center"
+                    android:hint="@string/url_hint_header"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLines="2"
+                    android:padding="12dp"
+                    android:paddingBottom="8dp"
+                    android:textAlignment="center"
+                    tools:ignore="Autofill" />
+
+                <ImageView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:id="@+id/fromClipboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/ic_clipboard_svgrepo_com__1_" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/root2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/fileNameEditTxt"
+                    android:layout_width="0dp"
+                    android:layout_height="65dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custombutton"
+                    android:gravity="center"
+                    android:hint="@string/filename"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:maxLines="2"
+                    android:padding="12dp"
+                    android:paddingBottom="8dp"
+                    android:textAlignment="center"
+                    tools:ignore="Autofill" />
+
+                <ImageView
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:id="@+id/auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/ic_baseline_auto_fix_high_24" />
+
+            </LinearLayout>
+
+            <TextView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/download_location"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                tools:text="ذاكرة الهاتف / التحميلات / تحميلات التطبيق"
+                android:drawablePadding="16dp"
+                app:drawableStartCompat="@drawable/ic_folder" />
+
+            <TextView
+                android:id="@+id/download_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/download_hint"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"/>
+
+            <TextView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/black"
+                android:id="@+id/download_time"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/select_time"
+                android:drawablePadding="16dp"
+                app:drawableEndCompat="@drawable/ic_baseline_access_time_24" />
+
+            <TextView
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/black"
+                android:id="@+id/download_date"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/select_date"
+                android:drawablePadding="12dp"
+                app:drawableEndCompat="@drawable/ic_baseline_date_range_24" />
+
+            <Button
+                android:layout_marginBottom="16dp"
+                android:id="@+id/startDownloadBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btnedit"
+                android:textColor="@color/white"
+                android:text="@string/start"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

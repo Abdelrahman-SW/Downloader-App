@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DownloaderAppProjectDefaultTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">?attr/main</item>
+        <item name="colorPrimaryVariant">?attr/main</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">?attr/main</item>
+        <item name="colorSecondaryVariant">?attr/main</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="colorControlNormal">?attr/upButtonColor</item>
+        <!-- Customize Theme -->
+        <item name="android:statusBarColor">?attr/main</item>
+        <item name="IconsColor">@color/main</item>
+        <item name="main">@color/main</item>
+        <item name="iconColorOnFab">#4caf50</item>
+        <item name="toolbarColor">@color/main</item>
+        <item name="colorOnToolbar">@color/white</item>
+        <item name="popMenuBackgroundColor">@color/white</item>
+        <item name="popMenuTextColor">@color/main</item>
+        <item name="navBackgroundColor">@color/white</item>
+        <item name="navTextColor">@color/black</item>
+        <item name="upButtonColor">@color/white</item>
+        <item name="settingsFirstTextColor">@color/black</item>
+        <item name="settingsSecondTextColor">@color/grey_font</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetMainTextColor">@color/main</item>
+        <item name="bottomSheetIconsColor">@color/black</item>
+        <item name="bottomSheetBackgroundColor">@color/white</item>
+        <item name="customIconColor">#51414141</item>
+
+    </style>
+</resources>

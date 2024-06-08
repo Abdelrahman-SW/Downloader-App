@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/add_playlist_view">
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:id="@+id/FileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingBottom="28dp"
+        android:textColor="?attr/bottomSheetTextHeaderColor"
+        android:textSize="17sp"
+        />
+
+
+    <TextView
+        android:id="@+id/play_pause"
+        app:drawableStartCompat="@drawable/ic_play__3_"
+        android:text="@string/pause"
+        android:textColor="?attr/bottomSheetMainTextColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:textColor="?attr/bottomSheetMainTextColor"
+        android:text="@string/cancelDownload"
+        android:id="@+id/cancel_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:drawablePadding="16dp"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:minHeight="48dp"
+        app:drawableStartCompat="@drawable/ic_cancel__2_" />
+
+    <TextView
+        android:textColor="?attr/bottomSheetMainTextColor"
+        android:id="@+id/urlLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:drawablePadding="16dp"
+        android:focusable="true"
+        android:text="@string/copy"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:minHeight="48dp"
+        app:drawableStartCompat="@drawable/ic_baseline_content_copy_24" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/info"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:clickable="true"-->
+<!--        android:drawablePadding="16dp"-->
+<!--        android:focusable="true"-->
+<!--        android:text="@string/info"-->
+<!--        android:foreground="?android:attr/selectableItemBackground"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:lines="1"-->
+<!--        android:minHeight="48dp"-->
+<!--        app:drawableStartCompat="@drawable/ic_baseline_info_24" />-->
+
+
+</LinearLayout>

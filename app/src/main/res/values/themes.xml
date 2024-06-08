@@ -1,0 +1,178 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="DownloaderAppProjectDefaultTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">?attr/main</item>
+        <item name="colorPrimaryVariant">?attr/main</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">?attr/main</item>
+        <item name="colorSecondaryVariant">?attr/main</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="colorControlNormal">?attr/upButtonColor</item>
+        <!-- Customize Theme -->
+        <item name="IconsColor">@color/main</item>
+        <item name="main">@color/main</item>
+        <item name="iconColorOnFab">#4caf50</item>
+        <item name="toolbarColor">@color/main</item>
+        <item name="colorOnToolbar">@color/white</item>
+        <item name="popMenuBackgroundColor">@color/white</item>
+        <item name="popMenuTextColor">@color/main</item>
+        <item name="navBackgroundColor">@color/white</item>
+        <item name="navTextColor">@color/black</item>
+        <item name="upButtonColor">@color/white</item>
+        <item name="settingsFirstTextColor">@color/black</item>
+        <item name="settingsSecondTextColor">@color/grey_font</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetMainTextColor">@color/main</item>
+        <item name="bottomSheetIconsColor">@color/black</item>
+        <item name="bottomSheetBackgroundColor">@color/white</item>
+        <item name="customIconColor">#51414141</item>
+
+    </style>
+
+
+     <style name="black_theme" parent="DownloaderAppProjectDefaultTheme">
+         <item name="main">@color/black</item>
+         <item name="iconColorOnFab">@color/white</item>
+         <item name="navBackgroundColor">@color/main</item>
+         <item name="android:windowBackground">@color/main</item>
+         <item name="navTextColor">@color/white</item>
+         <item name="customIconColor">@color/white</item>
+    </style>
+
+
+    <style name="theme_red_dark" parent="DownloaderAppProjectDefaultTheme">
+        <item name="main">@color/theme_red_dark</item>
+        <item name="iconColorOnFab">@color/white</item>
+        <item name="navBackgroundColor">@color/theme_red_dark_background</item>
+        <item name="android:windowBackground">@color/theme_red_dark_background</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_red_dark_background</item>
+        <item name="popMenuBackgroundColor">@color/theme_red_dark_background</item>
+        <item name="popMenuTextColor">@color/theme_red_dark</item>
+    </style>
+
+
+    <style name="theme_red" parent="DownloaderAppProjectDefaultTheme">
+        <item name="main">@color/red</item>
+        <item name="iconColorOnFab">@color/white</item>
+        <item name="navBackgroundColor">@color/theme_red_background</item>
+        <item name="android:windowBackground">@color/theme_red_background</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_red_background</item>
+        <item name="popMenuTextColor">@color/theme_red_dark</item>
+    </style>
+
+
+    <style name="theme_Pink" parent="DownloaderAppProjectDefaultTheme">
+        <item name="main">@color/theme_Pink</item>
+        <item name="popMenuTextColor">@color/theme_Pink</item>
+        <item name="iconColorOnFab">@color/white</item>
+        <item name="navBackgroundColor">@color/theme_Pink_background</item>
+        <item name="android:windowBackground">@color/theme_Pink_background</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_Pink_background</item>
+    </style>
+
+
+    <style name="theme_purple_200" parent="DownloaderAppProjectDefaultTheme">
+        <item name="main">@color/purple_200</item>
+        <item name="popMenuTextColor">@color/purple_200</item>
+        <item name="iconColorOnFab">@color/white</item>
+        <item name="navBackgroundColor">@color/theme_purple_200_background</item>
+        <item name="android:windowBackground">@color/theme_purple_200_background</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_purple_200_background</item>
+    </style>
+
+
+    <style name="theme_Purple" parent="DownloaderAppProjectDefaultTheme">
+        <item name="main">@color/theme_Purple</item>
+        <item name="popMenuTextColor">@color/theme_Purple</item>
+        <item name="iconColorOnFab">@color/white</item>
+        <item name="navBackgroundColor">@color/theme_Purple_background</item>
+        <item name="android:windowBackground">@color/theme_Purple_background</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_Purple_background</item>
+    </style>
+
+    <style name="theme_Deep_Purple" parent="DownloaderAppProjectDefaultTheme">
+        <item name="main">@color/theme_Deep_Purple</item>
+        <item name="popMenuTextColor">@color/theme_Deep_Purple</item>
+        <item name="iconColorOnFab">@color/white</item>
+        <item name="navBackgroundColor">@color/theme_Deep_Purple_background</item>
+        <item name="android:windowBackground">@color/theme_Deep_Purple_background</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_Deep_Purple_background</item>
+    </style>
+
+
+    <style name="theme_Teal" parent="DownloaderAppProjectDefaultTheme">
+        <item name="main">@color/theme_Teal</item>
+        <item name="popMenuTextColor">@color/theme_Teal</item>
+        <item name="iconColorOnFab">@color/white</item>
+        <item name="navBackgroundColor">@color/theme_Teal_background</item>
+        <item name="android:windowBackground">@color/theme_Teal_background</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_Teal_background</item>
+    </style>
+
+
+    <style name="theme_green" parent="DownloaderAppProjectDefaultTheme">
+        <item name="main">@color/theme_green</item>
+        <item name="popMenuTextColor">@color/theme_green</item>
+        <item name="iconColorOnFab">@color/white</item>
+        <item name="navBackgroundColor">@color/theme_green_background</item>
+        <item name="android:windowBackground">@color/theme_green_background</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_green_background</item>
+    </style>
+
+
+    <style name="theme_light_green" parent="DownloaderAppProjectDefaultTheme">
+        <item name="main">@color/theme_light_green</item>
+        <item name="popMenuTextColor">@color/theme_light_green</item>
+        <item name="iconColorOnFab">@color/white</item>
+        <item name="navBackgroundColor">@color/theme_light_green_background</item>
+        <item name="android:windowBackground">@color/theme_light_green_background</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_light_green_background</item>
+    </style>
+
+
+    <style name="theme_yellow" parent="DownloaderAppProjectDefaultTheme">
+        <item name="main">@color/theme_yellow</item>
+        <item name="popMenuTextColor">@color/theme_yellow</item>
+        <item name="iconColorOnFab">@color/white</item>
+        <item name="navBackgroundColor">@color/theme_yellow_background</item>
+        <item name="android:windowBackground">@color/theme_yellow_background</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_yellow_background</item>
+    </style>
+
+
+    <style name="theme_orange" parent="DownloaderAppProjectDefaultTheme">
+        <item name="main">@color/theme_orange</item>
+        <item name="popMenuTextColor">@color/theme_orange</item>
+        <item name="iconColorOnFab">@color/white</item>
+        <item name="navBackgroundColor">@color/theme_orange_background</item>
+        <item name="android:windowBackground">@color/theme_orange_background</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_orange_background</item>
+    </style>
+
+    <style name="theme_brown" parent="DownloaderAppProjectDefaultTheme">
+        <item name="main">@color/theme_brown</item>
+        <item name="popMenuTextColor">@color/theme_brown</item>
+        <item name="iconColorOnFab">@color/white</item>
+        <item name="navBackgroundColor">@color/theme_brown_background</item>
+        <item name="android:windowBackground">@color/theme_brown_background</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_brown_background</item>
+    </style>
+
+
+    <style name="theme_grey" parent="DownloaderAppProjectDefaultTheme">
+        <item name="main">#434343</item>
+        <item name="popMenuTextColor">#434343</item>
+        <item name="iconColorOnFab">@color/white</item>
+        <item name="navBackgroundColor">@color/theme_grey_background</item>
+        <item name="android:windowBackground">@color/theme_grey_background</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_grey_background</item>
+    </style>
+
+
+
+
+</resources>

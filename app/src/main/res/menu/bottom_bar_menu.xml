@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title=""
+        android:id="@+id/shutDown"
+        android:icon="@drawable/ic_shut_down_svgrepo_com"/>
+
+    <item android:title=""
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+
+
+    <item android:title=""
+        android:id="@+id/anchor"
+        android:enabled="false"/>
+
+    <item
+        android:title=""
+        android:id="@+id/completed_downloads"
+        android:icon="@drawable/ic_baseline_folder_24"/>
+
+    <item android:title=""
+        android:id="@+id/popupMenu"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"/>
+</menu>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Language_entries">
+        <item>@string/auto</item>
+        <item>English</item>
+        <item>Arabic/العربية</item>
+    </string-array>
+
+    <string-array name="Language_value">
+        <item>@string/default_language</item>
+        <item>@string/english</item>
+        <item>@string/arabic</item>
+    </string-array>
+
+    <array name="PickerColorsDialog">
+        <item name="white">@color/white</item>
+        <item name="black">@color/black</item>
+        <item name="theme_red_dark">@color/theme_red_dark</item>
+        <item name="theme_red">@color/theme_red</item>
+        <item name="theme_Pink">@color/theme_Pink</item>
+        <item name="theme_purple_200">@color/theme_purple_200</item>
+        <item name="theme_Purple">@color/theme_Purple</item>
+        <item name="theme_Deep_Purple">@color/theme_Deep_Purple</item>
+        <item name="theme_Teal">@color/theme_Teal</item>
+        <item name="theme_green">@color/theme_green</item>
+        <item name="theme_light_green">@color/theme_light_green</item>
+        <item name="theme_yellow">@color/theme_yellow</item>
+        <item name="theme_orange">@color/theme_orange</item>
+        <item name="theme_brown">@color/theme_brown</item>
+        <item name="theme_grey">@color/theme_grey</item>
+    </array>
+</resources>

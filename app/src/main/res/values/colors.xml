@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="main">#414141</color>
+    <color name="red">#FA0C0C</color>
+
+
+    <!--colors used in the color picker-->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="theme_red_dark">#9b0000</color>
+    <color name="theme_red">#d50000</color>
+    <color name="theme_Pink">#c51162</color>
+    <color name="theme_purple_200">#FFBB86FC</color>
+    <color name="theme_Purple">#aa00ff</color>
+    <color name="theme_Deep_Purple">#6200ea</color>
+    <color name="theme_Teal">#00bfa5</color>
+    <color name="theme_green">#00c853</color>
+    <color name="theme_light_green">#64dd17</color>
+    <color name="theme_yellow">#ffd600</color>
+    <color name="theme_orange">#ff6d00</color>
+    <color name="theme_brown">#3e2723</color>
+    <color name="theme_grey">#616161</color>
+
+    <!-- background Colors-->
+
+    <color name="white_background">#FFFFFFFF</color>
+    <color name="black_background">#272727</color>
+    <color name="theme_red_dark_background">#FBD7D7</color>
+    <color name="theme_red_background">#FFE5E5</color>
+    <color name="theme_Pink_background">#FFE9F3</color>
+    <color name="theme_purple_200_background">#F1E7FD</color>
+    <color name="theme_Purple_background">#F4E1FD</color>
+    <color name="theme_Deep_Purple_background">#F2E9FD</color>
+    <color name="theme_Teal_background">#E2FBF9</color>
+    <color name="theme_green_background">#DCFFEA</color>
+    <color name="theme_light_green_background">#EBF8E2</color>
+    <color name="theme_yellow_background">#FAF6E2</color>
+    <color name="theme_orange_background">#FDECDE</color>
+    <color name="theme_brown_background">#FDEBE7</color>
+    <color name="theme_grey_background">#B1B1B1</color>
+    <color name="dialog_background">#80272727</color>
+
+
+    <color name="theme_main_card_color">#0F414141</color>
+
+</resources>

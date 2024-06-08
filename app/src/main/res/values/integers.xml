@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_theme" >0</integer>
+    <integer name="black_theme" >1</integer>
+    <integer name="theme_red_dark" >2</integer>
+    <integer name="theme_red" >3</integer>
+    <integer name="theme_Pink" >4</integer>
+    <integer name="theme_purple_200" >5</integer>
+    <integer name="theme_Purple" >6</integer>
+    <integer name="theme_Deep_Purple" >7</integer>
+    <integer name="theme_Teal" >8</integer>
+    <integer name="theme_green" >9</integer>
+    <integer name="theme_light_green" >10</integer>
+    <integer name="theme_yellow" >11</integer>
+    <integer name="theme_orange" >12</integer>
+    <integer name="theme_brown" >13</integer>
+    <integer name="theme_grey" >14</integer>
+</resources>

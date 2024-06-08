@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/add_playlist_view">
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:id="@+id/FileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingBottom="28dp"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        />
+
+
+    <TextView
+        android:id="@+id/download_now"
+        app:drawableStartCompat="@drawable/ic_baseline_download_24"
+        android:text="@string/downloadNow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:drawablePadding="16dp"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/edit_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:drawablePadding="16dp"
+        android:focusable="true"
+        android:text="@string/edit_download"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:minHeight="48dp"
+        app:drawableStartCompat="@drawable/ic_baseline_edit_24" />
+
+    <TextView
+        android:text="@string/delete"
+        android:id="@+id/delete_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:drawablePadding="16dp"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:minHeight="48dp"
+        app:drawableStartCompat="@drawable/ic_baseline_delete_24" />
+
+    <TextView
+        android:id="@+id/urlLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:drawablePadding="16dp"
+        android:focusable="true"
+        android:text="@string/copy"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:minHeight="48dp"
+        app:drawableStartCompat="@drawable/ic_baseline_content_copy_24" />
+
+
+
+
+</LinearLayout>

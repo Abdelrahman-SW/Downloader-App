@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/linearAll" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:padding="32dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:text="@string/name_sort" />
+
+            <ImageView
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/imgNameAsc"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/name_sort"
+                app:srcCompat="@drawable/ic_sort_alpha_down_icon" />
+
+            <ImageView
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/imgNameDesc"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:contentDescription="@string/name_sort"
+                app:srcCompat="@drawable/ic_sort_alpha_up_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginBottom="16dp"
+                android:id="@+id/txtDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/date_sort"
+                />
+
+            <ImageView
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/imgDateDesc"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:contentDescription="@string/date_sort"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_baseline_arrow_circle_down_24" />
+
+            <ImageView
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:id="@+id/imgDateAsc"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/date_sort"
+                app:srcCompat="@drawable/ic_baseline_arrow_circle_up_24" />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+
+            <TextView
+                android:id="@+id/txtSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:text="@string/size_sort"
+                />
+            <ImageView android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:srcCompat="@drawable/ic_sort_amount_down_icon" android:id="@+id/imgSizeDesc" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="5dp" android:contentDescription="@string/size_sort" android:layout_gravity="center"/>
+            <ImageView android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:srcCompat="@drawable/ic_sort_amount_up_icon" android:id="@+id/imgSizeAsc" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="15dp" android:contentDescription="@string/size_sort" android:layout_gravity="center"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="#979797" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="5dp"/>
+</LinearLayout>

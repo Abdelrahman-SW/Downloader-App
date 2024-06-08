@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/actions">
+
+<!--        <CheckBoxPreference-->
+<!--            android:icon="@drawable/ic__wifi"-->
+<!--            android:key="@string/wifi_key"-->
+<!--            android:title="@string/wifi_title"-->
+<!--            android:summary="@string/wifi_summary"-->
+<!--            android:defaultValue="false"-->
+<!--            />-->
+
+        <CheckBoxPreference
+            android:icon="@drawable/ic__vibrate"
+            android:key="@string/vibrate_key"
+            android:title="@string/vibrate_title"
+            android:summary="@string/vibrate_summary"
+            android:defaultValue="true"
+            />
+
+
+<!--        <CheckBoxPreference-->
+<!--            android:icon="@drawable/ic__low_battery"-->
+<!--            android:key="@string/battery_key"-->
+<!--            android:title="@string/battery_title"-->
+<!--            android:summary="@string/battery_summary"-->
+<!--            android:defaultValue="false"-->
+<!--            />-->
+
+        <CheckBoxPreference
+            android:icon="@drawable/ic__auto"
+            android:key="@string/auto_key"
+            android:title="@string/auto_title"
+            android:summary="@string/auto_summary"
+            android:defaultValue="true"
+            />
+
+        <SeekBarPreference
+            android:icon="@drawable/ic__paraller"
+            android:key="@string/concurrent_download_key"
+            app:showSeekBarValue="true"
+            android:defaultValue="5"
+            android:max="5"
+            app:min="1"
+            android:summary="@string/concurrent_download_title"
+            android:title="@string/concurrent_download_summary" />
+
+        <SeekBarPreference
+            android:icon="@drawable/ic__speed"
+            android:key="@string/download_speed_key"
+            android:max="3"
+            app:min="1"
+            android:defaultValue="3"
+            android:summary="@string/download_speed_summary"
+            android:title="@string/download_speed"
+            app:showSeekBarValue="true" />
+
+        <Preference
+            android:icon="@drawable/ic__order"
+            android:key="@string/download_order_key"
+            android:title="@string/download_order_title"
+            android:summary="@string/download_order_summary" />
+
+    </PreferenceCategory>
+
+<!--    <PreferenceCategory android:title="@string/interface_name">-->
+
+<!--        <Preference-->
+<!--            android:icon="@drawable/ic_color_wheel"-->
+<!--            android:title="@string/apperance_settings"-->
+<!--            android:summary="@string/apperance_title"-->
+<!--            android:key="@string/AppearanceKey" />-->
+
+
+<!--        <ListPreference-->
+<!--            android:icon="@drawable/ic_programmer"-->
+<!--            android:title="@string/language_title"-->
+<!--            android:key="@string/language_key"-->
+<!--            android:entries="@array/Language_entries"-->
+<!--            android:entryValues="@array/Language_value"-->
+<!--            android:defaultValue="@string/default_language"-->
+<!--            android:summary="@string/auto" />-->
+
+<!--    </PreferenceCategory>-->
+
+
+
+
+
+        <!--        <Preference-->
+        <!--            android:title="رقم الإصدار"-->
+        <!--            android:summary="1.0"-->
+        <!--            android:selectable="false" />-->
+
+</PreferenceScreen>
