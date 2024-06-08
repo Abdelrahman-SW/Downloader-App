@@ -16,7 +16,7 @@ The App lets you Start a Direct Download or you can set the download process to 
   why is used this lib Specifically❓:
   <br></br>
       - because this lib uses a good algo under the hood to download files with high speed : as it splits the file that need to be downloaded
-        into n number of chunks and start all chunks on parallel then merge all these chunks after downloaded that makes the download process more fast !
+        into n number of chunks and start all these chunks on parallel then merge them after the download process compeleted that makes the download process more fast !
         <br></br>
 other tools used :
 -- room db , viewModel , liveData and more ..
